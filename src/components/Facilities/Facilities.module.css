@@ -1,0 +1,38 @@
+.contact {
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.contact span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: var(--dark);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-bottom: 0rem;
+}
+
+.contact h4 {
+    margin-bottom: 0rem;
+}
+
+.contact span:last-child {
+    background-color: var(--white);
+}
+
+@media screen and (max-width:56.188rem) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .none {
+        margin-bottom: 0rem
+    }
+}

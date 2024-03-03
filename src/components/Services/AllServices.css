@@ -1,0 +1,72 @@
+.servicesContent {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    max-width: 60rem;
+}
+
+
+.serCard1 {
+    border-radius: 1rem;
+    background-color: var(--white);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-right: 3rem;
+    padding-left: 5rem;
+}
+
+.change p {
+    margin-bottom: 1rem;
+}
+
+.serCard1 img {
+    width: 8rem;
+    height: 8rem;
+    margin-bottom: 0.8rem;
+    margin-top: 1.5rem;
+}
+
+.change {
+    background-color: var(--orange);
+    color: var(--dark);
+    position: relative;
+}
+
+.change p {
+    color: rgba(2, 7, 16, 65%);
+}
+
+.serCard1 span {
+    color: var(--dark);
+    font-size: 2.5rem;
+}
+
+.serCard1 h3 {
+    margin-bottom: 0.8rem;
+}
+
+.change span:first-child {
+    background-color: var(--dark);
+    color: var(--orange);
+    position: absolute;
+    right: 3rem;
+    padding: 0.9rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+}
+
+.ch {
+    background-color: var(--white);
+    border-radius: 1rem;
+    padding: 3rem 5rem;
+}
+
+.ch p {
+    margin-bottom: 1rem;
+}
+
+.ch img {
+    width: 8rem;
+    height: 8rem;
+}

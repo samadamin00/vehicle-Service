@@ -1,0 +1,87 @@
+.Contact {
+    background-color: #F0EFEE;
+    position: relative;
+}
+
+.Contact::before {
+    content: '';
+    background-image: url(/src/assets/img/back1.png);
+    background-position: 100% 40%;
+    background-repeat: repeat;
+    opacity: 0.13;
+    background-size: 35% auto;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.Contact h3 {
+    margin-bottom: 3.5rem;
+}
+
+.Contact img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.heading {
+    color: var(--dark);
+    font-weight: 500;
+    text-align: center;
+    font-size: 6.5rem;
+    padding-bottom: 5rem;
+}
+
+.top {
+    margin-bottom: 1rem;
+    text-align: center;
+    letter-spacing: 0.3rem
+}
+
+.information {
+    background-color: var(--white);
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    padding: 6rem 6rem;
+    height: 800px;
+}
+
+label {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+input,
+textarea {
+    width: 98%;
+    border: 1px solid var(--gray);
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.6rem
+}
+
+input:hover,
+textarea:hover {
+    border: 1px solid var(--orange);
+
+}
+
+input,
+textarea {
+    margin-bottom: 2rem;
+}
+
+textarea {
+    margin-bottom: 2rem;
+}
+
+.Contact button {
+    padding: 1.5rem 5rem
+}

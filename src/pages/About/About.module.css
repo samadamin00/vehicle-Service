@@ -1,0 +1,39 @@
+.about {
+    background-color: #F0EFEE;
+    position: relative;
+}
+
+.about::before {
+    content: '';
+    background-image: url(/src/assets/img/back1.png);
+    background-position: 100% 40%;
+    background-repeat: repeat;
+    opacity: 0.13;
+    background-size: 35% auto;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.heading {
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
+
+.motivate {
+    color: var(--black);
+    font-weight: 500;
+    font-size: 7rem;
+    text-align: center;
+    padding-bottom: 8rem;
+}
+
+.fullWidth {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+}

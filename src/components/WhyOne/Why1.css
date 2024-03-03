@@ -1,0 +1,57 @@
+.content1 {
+    max-width: 93%;
+}
+
+.content1 h2 {
+    font-weight: 600;
+    line-height: 5.5rem;
+}
+
+.content1 h5,
+p {
+    color: #727272;
+}
+
+.one,
+.two {
+    display: flex;
+    column-gap: 2.5rem;
+}
+
+.one img,
+.two img {
+    width: 4.3rem;
+    height: 4.3rem;
+}
+
+.inner h4 {
+    margin: 0rem;
+}
+
+.tow p {
+    color: var(--dark);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.content1 .one .in .tow h4,
+.content1 .one .in .tow p {
+    margin-bottom: 1.2rem;
+}
+
+.tow h4 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.content1Img {
+    height: 52rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content1Img img {
+    width: 90%;
+    height: 100%;
+    object-fit: contain;
+}
